@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  position: relative;
+  left: 0;
+  background: linear-gradient(322deg, rgba(240,232,219,0.5018382352941176) 20%, rgb(223 229 218 / 17%) 33%, rgba(219,228,218,0.5046393557422969) 50%, rgb(246 120 10/17%)90%);
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d4d57;
+  border-radius: 15px;
+}
