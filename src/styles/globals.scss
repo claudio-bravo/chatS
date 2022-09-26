@@ -5,6 +5,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+:root {
+  --positionTop: 0;
+  --positionLeft: 0;
+  --positionRight: 0;
+  --positionBottom: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,13 +21,13 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   vertical-align: baseline;
-  background: transparent;
+  background: transparent;
 }
 
 body {
   position: relative;
   left: 0;
-  background: linear-gradient(322deg, rgba(240,232,219,0.5018382352941176) 20%, rgb(223 229 218 / 17%) 33%, rgba(219,228,218,0.5046393557422969) 50%, rgb(246 120 10/17%)90%);
+  background: linear-gradient(322deg, rgba(240, 232, 219, 0.5018382352941176) 20%, rgb(223 229 218 / 17%) 33%, rgba(219, 228, 218, 0.5046393557422969) 50%, rgb(246 120 10/17%)90%);
 }
 
 ::-webkit-scrollbar-track {

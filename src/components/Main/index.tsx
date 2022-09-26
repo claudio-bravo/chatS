@@ -1,7 +1,7 @@
 import React from "react";
 import styled from './styles.module.scss';
 
-interface MainProps {
+export interface MainProps {
     handleOpenChatModal: () => void;
 }
 
