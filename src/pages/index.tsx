@@ -3,9 +3,14 @@ import Head from "next/head";
 import { ModalContent } from "../components/ModalContent";
 import { useState } from "react";
 import { Chat } from "../components/Chat";
+import { GetServerSideProps, GetServerSidePropsContext } from "next";
 
-export default function Home() {
-  const [openChatModal, setOpenChatModal] = useState(false);
+interface HomeProps {
+  isOpen: boolean;
+}
+
+export default function Home({isOpen}: HomeProps) {
+  const [openChatModal, setOpenChatModal] = useState(isOpen);
 
   function handleOpenChatModal() {
     setOpenChatModal(true);
@@ -14,6 +19,7 @@ export default function Home() {
   function handleCloseChatModal() {
     setOpenChatModal(false);
   }
+
   return (
     <>
       <Head>
@@ -32,4 +38,10 @@ export default function Home() {
       />
     </>
   );
+}
+
+export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext) => {
+  return {
+    props: {isOpen:context.query.open === "true"? true : false},
+  }
 }
