@@ -2,4 +2,10 @@
     cursor: pointer;
     border: none;
     background: transparent;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    right:0;
+    display: flex;
+    justify-content: flex-end;
 }
