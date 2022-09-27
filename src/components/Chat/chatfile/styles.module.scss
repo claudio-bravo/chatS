@@ -21,7 +21,7 @@
             h1 {
                 width: max-content;
                 padding: 10px;
-                font-size: 1.5rem;
+                font-size: 1.25rem;
                 letter-spacing: 2px;
             }
     
@@ -66,17 +66,25 @@
                 justify-content: space-between;
                 border-bottom: 1px solid rgb(146, 146, 146);
                 padding: 9px;
+                align-items: center;
 
                 img {
                     width: 42px;
                     height: 42px;
                     border-radius: 50%;
                 }
-                .content {
-                    .suport {
-                        display: flex;
-                        gap: 2rem;                    
+                .content {  
+                    h3 {
+                        font-size: 16px;
+                        font-weight: normal;
                     }
+
+                        span {
+                            padding-top: 8px;
+                            font-size: 12px;
+                            color: var(--color-black);
+                            font-weight: bold;
+                        }                    
                 }
             }
 
