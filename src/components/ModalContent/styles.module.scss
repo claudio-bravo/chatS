@@ -1,6 +1,6 @@
 .reactModalOverlay {
     width: 100%;
-    height: 100%;
+    height: auto;
 
 }
 
@@ -10,7 +10,7 @@
     position: fixed;
     top: var(--positionTop);
     right: var(--positionRight);
-    height: 90%;
+    height: auto;
     background: white;
     border-radius: 10px;
 }
