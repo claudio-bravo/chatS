@@ -1,12 +1,11 @@
 .reactModalOverlay {
     width: 100%;
     height: auto;
-
 }
 
 .reactModalContent {
     width: 100%;
-    max-width: 414px;
+    max-width: 380px;
     position: fixed;
     top: var(--positionTop);
     right: var(--positionRight);

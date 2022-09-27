@@ -1,6 +1,7 @@
 .container {
     width: 100%;
-    height: max-content;
+    height: auto;
+    max-height: 414px;
     display: grid;
     grid-template-rows: 30% 1fr;
     grid-template-columns: 1fr;
