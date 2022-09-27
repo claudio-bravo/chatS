@@ -1,6 +1,7 @@
 import { ReactNode, useEffect } from "react";
 import ReactModal from "react-modal";
 import styled from "./styles.module.scss";
+ReactModal.setAppElement('#__next');
 
 interface ModalContentProps {
   isOpen: boolean;
@@ -28,6 +29,7 @@ export function ModalContent({
   return (
     <ReactModal
       isOpen={isOpen}
+      ariaHideApp={false}
       overlayClassName={styled.reactModalOverlay}
       className={styled.reactModalContent}
     >
