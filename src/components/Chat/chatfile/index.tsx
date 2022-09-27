@@ -35,29 +35,12 @@ export function Chat({ isClose }: ICloseChat) {
           <div className={styled.card}>
             <img src="/favicon.png" alt="avatar" />
             <div className={styled.content}>
-              <h2>Ola como podemos ajudar...</h2>
-              <div className={styled.suport}>
-                <span>Claudio</span>
-                <ul>
-                  <li>Há 1h</li>
-                </ul>
-              </div>
+              <h3>Ola como podemos ajudar...</h3>
+                <span>Claudio Há 1h</span>
             </div>
             <CaretRight size={28} />          
           </div>
-          <div className={styled.card}>
-            <img src="/favicon.png" alt="avatar" />
-            <div className={styled.content}>
-              <h2>Ola como podemos ajudar...</h2>
-              <div className={styled.suport}>
-                <span>Claudio</span>
-                <ul>
-                  <li>Há 1h</li>
-                </ul>
-              </div>
-            </div>
-            <CaretRight size={28} />          
-          </div>
+          
         </div>
         <div className={styled.sendMensage}>
           <ButtomSend />
