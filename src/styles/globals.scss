@@ -1,11 +1,18 @@
 html,
+#root,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  flex: 1 1;
+  min-height: 100%;
+  flex-direction: column;
   width: 100%;
 }
+
+
 
 :root {
   --positionTop: 0;
