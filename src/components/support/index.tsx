@@ -45,6 +45,255 @@ export function SupportComponent() {
                                 </div>
                                 <strong className={styled.status}></strong>
                             </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+                            <div className={styled.card}>
+                                <img src="/favicon.png" alt="avatar" />
+                                <div className={styled.content}>
+                                    <h3>Ola como podemos ajudar...</h3>
+                                    <span>Claudio Há 1h</span>
+                                </div>
+                                <strong className={styled.status}></strong>
+                            </div>
+
                         </div>
                     </aside>
 
