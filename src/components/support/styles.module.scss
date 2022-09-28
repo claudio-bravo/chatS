@@ -1,7 +1,7 @@
 .sectionSupport {
     height: 100%;
     background: white;
-    flex: 1 1 0%;
+    flex: 1 1;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -11,8 +11,7 @@
         display: flex;
         flex-direction: row;
         justify-content: left;
-        margin-bottom: 30px;
-        padding: 1%;
+        padding: 7px;
         .asideButtons {
             width: 100%;
             max-width: 60px;
@@ -48,7 +47,7 @@
             max-width: 360px;
             max-height: max-content;
             border-right: 1px solid #E4E6EB;
-            padding: 1% 1% 0 1%;
+            padding: 0 1% 0 1%;
 
             .firstDivBatePapo {
                 display: flex;
@@ -130,7 +129,7 @@
         }
 
         .conversation {
-            padding: 1% 1% 0 1%;
+            padding: 0 1% 0 1%;
         }
     }
 }
