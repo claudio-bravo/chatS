@@ -302,6 +302,12 @@ export function SupportComponent() {
           </div>
           <div className={styled.conversation}>
             <section className={styled.sectionConversation}>
+              <div className={styled.cardUser}>
+                <img className={styled.img} src="/favicon.png" alt="avatar" />
+                <div className={styled.contentUser}>
+                  <h3>Claudio Bravo</h3>
+                </div>
+              </div>
               <div className={styled.mensage}>
                 <div className={styled.output}>
                   <div className={styled.sms}>
