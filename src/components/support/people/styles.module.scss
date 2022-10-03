@@ -48,11 +48,19 @@
             flex-direction: column;
             gap: 1rem;
             width: calc(100% - 1%);
+            :hover {
+                background: #E4E6EB;
+                transition: background 0.50s;
+                  border-radius: 6px;
+
+            }
             .card {
-                width: max-content;
+                width: 98%;
                 display: flex;
                 align-items: center;
                 gap: 10px;
+                cursor: pointer;
+
 
                 .image {
                     position: relative;

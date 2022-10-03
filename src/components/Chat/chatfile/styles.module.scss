@@ -1,8 +1,6 @@
 .container {
     width: 100%;
     height: max-content;
-    //display: grid;
-    //grid-template-rows: 12% 1fr;
     border-radius: 10px;
     
     .header {
@@ -58,14 +56,15 @@
             max-width: 370px;
             height: 414px;
             overflow-x: hidden;
-            padding: 0 0 0 5px;
-
+            
             .card {
                 display: flex;
                 justify-content: space-between;
                 border-bottom: 1px solid rgb(146, 146, 146);
                 padding: 9px;
                 align-items: center;
+                cursor: pointer;
+                
 
                 img {
                     width: 42px;

@@ -46,8 +46,18 @@
         max-height: 678px;
         overflow-x: scroll;
 
+        
+
         .users {
+            padding: 0 4px;
+            :hover {
+                background: #E4E6EB;
+                transition: background 0.50s;
+                  border-radius: 6px;
+
+            }
             .card {
+                margin: 8px 0;
                 display: flex;
                 justify-content: space-between;
                 padding: 9px;
