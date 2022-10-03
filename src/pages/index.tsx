@@ -9,7 +9,7 @@ interface HomeProps {
   isOpen: boolean;
 }
 
-export default function Home({isOpen}: HomeProps) {
+export default function Home({ isOpen }: HomeProps) {
   const [openChatModal, setOpenChatModal] = useState(isOpen);
 
   function handleOpenChatModal() {
@@ -40,8 +40,10 @@ export default function Home({isOpen}: HomeProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext) => {
+export const getServerSideProps: GetServerSideProps = async (
+  context: GetServerSidePropsContext
+) => {
   return {
-    props: {isOpen:context.query.open === "true"? true : false},
-  }
-}
+    props: { isOpen: context.query.open === "true" ? true : false },
+  };
+};

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CaretLeft, Clock, Image, Paperclip, X } from "phosphor-react";
+import { CaretLeft, Clock, Image, Paperclip, PaperPlaneRight, X } from "phosphor-react";
 import styled from "./styles.module.scss";
 
 interface ICloseChat {
@@ -88,7 +88,13 @@ export function Chat({ isClose }: ICloseChat) {
           </div>
         </div>
         <div className={styled.sendMensage}>
-          <textarea name="mensage" placeholder="Envie uma mensagem..."></textarea>
+          <div className={styled.sendMensageDiv}>
+            <textarea name="mensage" placeholder="Envie uma mensagem...">             
+            </textarea>
+            <button type="submit" className={styled.buttonSendMesage}>
+              <PaperPlaneRight size={25} color="#ffffff" className={styled.button}/>
+            </button>
+          </div>
           <div className={styled.icons}>
             <Image size={25} />            
             <Paperclip size={25} />          

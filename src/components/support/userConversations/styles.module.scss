@@ -1,0 +1,154 @@
+.conversation {
+    width: 100%;
+    padding: 0 1% 0 1%;
+        .sectionConversation {
+            position: relative;
+            border-radius: 0 0 10px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: space-between;
+            height: 100%;
+
+            .cardUser {
+                width: 100%;
+                height: 100%;
+                max-height: 86px;
+                border-bottom: 1px solid #E4E6EB;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .img {
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 50%;
+                }
+                    h3 {
+                        width: max-content;
+                        font-size: 16px;
+                        font-weight: normal;
+                    } 
+            }
+    
+            .mensage {
+                width: 100%;
+                height: 100%;
+                max-height: 80%;
+                overflow-x: scroll;
+    
+                .output {
+                    position: relative;
+                    width: 100%;
+                    color: rgb(0, 0, 0);
+                    
+                    .sms {
+                        position: relative;
+                        max-width: 65%;
+                        float: right;
+                        margin-right: 8px;
+                        background-color: rgb(103, 61, 230);
+                        padding: 17px 20px;
+                        border-radius: 5px;
+                        clear: both;
+                        margin-top: 20px;
+                        color: white;
+    
+                        p {
+                            text-align: left;
+                            font-size: 14px;
+                        }
+                    }
+                }
+    
+                .input {
+                    margin-top: 20px;
+                    position: relative;
+                    text-align: left;
+                    float: left;
+                    padding-left: 45px;
+                    width: calc(100% - 48px);
+                    clear: both;
+    
+                    .avatar {
+                        height: 100%;
+                        position: absolute;
+                        left: 0px;
+                        
+                        img {
+                            position: absolute;
+                            width: 38px;
+                            height: 38px;
+                            border-radius: 50%;
+                            object-fit: contain;
+                            bottom: 0;
+                        }
+                    }
+    
+                    .sms {
+                        padding: 17px 20px;
+                        border-radius: 5px;
+                        position: relative;
+                        display: inline-block;
+                        width: auto;
+                        max-width: 75%;
+                        color: rgb(0, 0, 0);
+                        background-color: #E4E6EB;
+                        p {
+                            text-align: left;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+    
+            .sendMensage {
+                display: grid;
+                align-items: center;
+                grid-template-columns: 70% 30%;
+                border-top: 2px solid rgb(230, 230, 230);
+                padding: 20px 0 10px 10px;
+                
+                .sendMensageDiv {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    textarea {
+                        width: 100%;
+                        font-size: 14px;
+                        resize: none;
+                        background: #E4E6EB;
+                        padding: 10px;
+                        border-radius: 6px;
+                        color: var(--color-black);
+                    }
+                    ::placeholder {
+                        color: black;
+                    }
+        
+                    .buttonSendMesage {
+                        width: max-content;
+                        height: max-content;
+
+                        .button {
+                            transition: all .3s ease;
+                            &:hover {
+                                color: #FF9900;
+                            }
+                        }
+                    }
+                }
+    
+                .icons {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                }
+            }
+        }
+}

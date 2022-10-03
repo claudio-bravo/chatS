@@ -12,7 +12,9 @@ body {
   width: 100%;
 }
 
-
+button, .button {
+  cursor: pointer;
+}
 
 :root {
   --positionTop: 0;
