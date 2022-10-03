@@ -29,7 +29,7 @@ export default function Home({isOpen}: HomeProps) {
       <Main handleOpenChatModal={handleOpenChatModal} />
       <ModalContent
         positions={{
-          top: "80px",
+          top: "0px",
           right: "0px",
         }}
         childrean={<Chat isClose={handleCloseChatModal} />}

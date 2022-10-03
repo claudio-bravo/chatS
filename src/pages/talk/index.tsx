@@ -19,8 +19,8 @@ export default function Talk() {
       <Main handleOpenChatModal={handleOpenChatModal} />
       <ModalContent
         positions={{
-          top: "80px",
-          right: "0px",
+          top: "2px",
+          right: "2px",
         }}
         childrean={<Chat isClose={handleCloseChatModal} />}
         isOpen={openChatModal}

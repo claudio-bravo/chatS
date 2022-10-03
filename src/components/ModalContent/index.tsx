@@ -17,9 +17,8 @@ interface ModalContentProps {
 
 export function ModalContent({
   isOpen,
-  onReuestClose,
   childrean,
-  positions: { top, left, bottom, right },
+  positions: { top, right },
 }: ModalContentProps) {
   useEffect(() => {
     document.documentElement.style.setProperty("--positionTop", `${top}`);
