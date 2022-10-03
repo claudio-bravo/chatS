@@ -235,20 +235,40 @@
                     .sendMensage {
                         display: grid;
                         align-items: center;
-                        grid-template-columns: 65% 35%;
+                        grid-template-columns: 70% 30%;
                         border-top: 2px solid rgb(230, 230, 230);
                         padding: 20px 0 10px 10px;
-            
-                        textarea {
-                            font-size: 14px;
-                            resize: none;
-                            background: #E4E6EB;
-                            padding: 10px;
-                            border-radius: 6px;
-                            color: var(--color-black);
-                        }
-                        ::placeholder {
-                            color: black;
+                        
+                        .sendMensageDiv {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+
+                            textarea {
+                                width: 100%;
+                                font-size: 14px;
+                                resize: none;
+                                background: #E4E6EB;
+                                padding: 10px;
+                                border-radius: 6px;
+                                color: var(--color-black);
+                            }
+                            ::placeholder {
+                                color: black;
+                            }
+                
+                            .buttonSendMesage {
+                                width: max-content;
+                                height: max-content;
+
+                                .button {
+                                    transition: all .3s ease;
+                                    &:hover {
+                                        color: #FF9900;
+                                    }
+                                }
+                            }
                         }
             
                         .icons {

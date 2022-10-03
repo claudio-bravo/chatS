@@ -3,6 +3,7 @@ import {
     Image, 
     NotePencil, 
     Paperclip, 
+    PaperPlaneRight, 
     Users, } from 'phosphor-react'
 import styled  from './styles.module.scss'
 
@@ -304,9 +305,7 @@ export function SupportComponent() {
             <section className={styled.sectionConversation}>
               <div className={styled.cardUser}>
                 <img className={styled.img} src="/favicon.png" alt="avatar" />
-                <div className={styled.contentUser}>
                   <h3>Claudio Bravo</h3>
-                </div>
               </div>
               <div className={styled.mensage}>
                 <div className={styled.output}>
@@ -357,10 +356,15 @@ export function SupportComponent() {
                 </div>
               </div>
               <div className={styled.sendMensage}>
-                <textarea
-                  name="mensage"
-                  placeholder="Envie uma mensagem..."
-                ></textarea>
+                <div className={styled.sendMensageDiv}>
+                  <textarea
+                    name="mensage"
+                    placeholder="Envie uma mensagem..."
+                  ></textarea>
+                  <button type="submit" className={styled.buttonSendMesage}>
+                    <PaperPlaneRight size={28} className={styled.button}/>
+                  </button>
+                </div>
                 <div className={styled.icons}>
                   <Image size={25} />
                   <Paperclip size={25} />
