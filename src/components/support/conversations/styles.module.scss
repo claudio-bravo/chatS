@@ -1,0 +1,84 @@
+.divAsideBatepapo {
+    width: 100%;
+    max-width: 360px;
+    max-height: max-content;
+    border-right: 1px solid #E4E6EB;
+    padding: 0 1% 0 1%;
+
+    .firstDivBatePapo {
+        display: flex;
+        justify-content: space-between;
+        .newMensage {
+            .svg {
+                padding: 5px;
+                border-radius: 50%;
+                
+            }
+            :hover {
+                background: #E4E6EB;
+            }
+        }
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+    .secondDivSearch {
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #E4E6EB;
+
+        input {
+            width: calc(100% - 46px);
+            background: #E4E6EB;
+            padding: 10px 10px 10px 30px;
+            border-radius: 10px;
+            font-size: 14px;
+            background-image: url("/image/search.svg");
+            background-repeat: no-repeat;
+            background-size: 20px;
+            background-position: 8px center;
+        }
+    }
+
+    .asidePeople {
+        width: 100%;
+        max-height: 678px;
+        overflow-x: scroll;
+
+        .users {
+            .card {
+                display: flex;
+                justify-content: space-between;
+                padding: 9px;
+                align-items: center;
+
+                img {
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 50%;
+                }
+                .content {  
+                    h3 {
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+
+                        span {
+                            padding-top: 8px;
+                            font-size: 12px;
+                            color: var(--color-black);
+                            font-weight: bold;
+                        }  
+                }
+                .status {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background:#5df44b;
+                }
+            }
+        }
+
+    }
+}

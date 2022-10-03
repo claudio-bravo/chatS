@@ -92,7 +92,7 @@ export function Chat({ isClose }: ICloseChat) {
             <textarea name="mensage" placeholder="Envie uma mensagem...">             
             </textarea>
             <button type="submit" className={styled.buttonSendMesage}>
-              <PaperPlaneRight size={28} color="#ffffff" className={styled.button}/>
+              <PaperPlaneRight size={25} color="#ffffff" className={styled.button}/>
             </button>
           </div>
           <div className={styled.icons}>

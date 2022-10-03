@@ -15,7 +15,6 @@ export default function Talk() {
   }
   return (
     <>
-
       <Main handleOpenChatModal={handleOpenChatModal} />
       <ModalContent
         positions={{

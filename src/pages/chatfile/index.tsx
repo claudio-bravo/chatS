@@ -15,7 +15,6 @@ export default function Chatfile() {
   }
   return (
     <>
-
       <Main handleOpenChatModal={handleOpenChatModal} />
       <ModalContent
         positions={{
