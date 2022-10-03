@@ -1,7 +1,5 @@
 import { SupportComponent } from "../../components/support";
 
-export default function Support(){
-    return (
-        <SupportComponent/>
-    )
+export default function Support() {
+  return <SupportComponent />;
 }
