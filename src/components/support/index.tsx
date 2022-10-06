@@ -7,7 +7,7 @@ export function SupportComponent() {
     <HeaderSupport
       childrean={
         <>
-          <Conversations />
+          <Conversations titleChat="Bate-papo" />
           <UserConversations />
         </>
       }

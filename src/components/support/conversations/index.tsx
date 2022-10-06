@@ -1,11 +1,30 @@
 import { NotePencil } from "phosphor-react";
 import styled from "./styles.module.scss";
 
-export function Conversations() {
+
+interface IConversationsProps {
+  titleChat : string;
+  chatType?: 'bate-papo' | 'pessoas';
+  props?: {
+      user: {
+        id : string;
+        avatar : string
+        messages: [{
+          sms : string;
+          updated: Date;
+        }]
+        name : string;
+        isActive: boolean;
+     
+      }; 
+      
+  }
+}
+export function Conversations({titleChat}: IConversationsProps) {
   return (
     <div className={styled.divAsideBatepapo}>
       <div className={styled.firstDivBatePapo}>
-        <h1>Bate-papo</h1>
+        <h1>{titleChat}</h1>
         <div className={styled.newMensage}>
           <NotePencil size={28} className={styled.svg} />
         </div>
